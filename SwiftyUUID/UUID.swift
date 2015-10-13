@@ -48,7 +48,7 @@ extension UUID {
             bytes[12], bytes[13], bytes[14], bytes[15]
         ]
         
-        return String(format: "%02x%02x%02x%02x-%02x%02x-%02x%02x-%02x%02x-%02x%02x%02x%02x%02x%02x", arguments: args)
+        return String(format: "%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x", arguments: args)
     }
 }
 
